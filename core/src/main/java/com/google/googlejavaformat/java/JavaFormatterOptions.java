@@ -30,7 +30,9 @@ import com.google.googlejavaformat.java.javadoc.JavadocOptions;
 @Immutable
 public class JavaFormatterOptions implements JavadocOptions {
 
-  static final int DEFAULT_MAX_LINE_LENGTH = 100;
+  static final int DEFAULT_MAX_LINE_LENGTH = Integer.getInteger(
+          JavaFormatterOptions.class.getName() + ".maxLineLength",
+          100);
 
   public enum Style {
 
@@ -43,7 +45,9 @@ public class JavaFormatterOptions implements JavadocOptions {
     private final int indentationMultiplier;
 
     Style(int indentationMultiplier) {
-      this.indentationMultiplier = indentationMultiplier;
+      this.indentationMultiplier = Integer.getInteger(
+              JavaFormatterOptions.class.getName() + ".indentationMultiplier",
+              indentationMultiplier);
     }
 
     int indentationMultiplier() {

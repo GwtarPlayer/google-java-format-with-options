@@ -25,17 +25,17 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.google.googlejavaformat</groupId>
-  <artifactId>google-java-format-parent</artifactId>
+  <groupId>com.google.googlejavaformat.withoptions</groupId>
+  <artifactId>google-java-format-with-options-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.7.0</version>
 
   <modules>
     <module>core</module>
-    <!-- google-java-format#24
+    <!-- google-java-format-with-options#24
     <module>idea_plugin</module>
-    <module>eclipse_plugin</module>
     -->
+    <module>eclipse_plugin</module>
   </modules>
 
   <name>Google Java Format Parent</name>
@@ -44,12 +44,12 @@
     A Java source code formatter that follows Google Java Style.
   </description>
 
-  <url>https://github.com/google/google-java-format</url>
+  <url>https://github.com/GwtarPlayer/google-java-format-with-options/</url>
 
-  <inceptionYear>2015</inceptionYear>
+  <inceptionYear>2019</inceptionYear>
 
   <organization>
-    <name>Google Inc.</name>
+    <name>Originally by Google Inc.</name>
     <url>http://www.google.com/</url>
   </organization>
 
@@ -77,15 +77,15 @@
   </developers>
 
   <scm>
-    <url>http://github.com/google/google-java-format/</url>
-    <connection>scm:git:git://github.com/google/google-java-format.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/google/google-java-format.git</developerConnection>
+    <url>https://github.com/GwtarPlayer/google-java-format-with-options/</url>
+    <connection>scm:git:git://github.com/GwtarPlayer/google-java-format-with-options.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/GwtarPlayer/google-java-format-with-options.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>http://github.com/google/google-java-format/issues</url>
+    <url>http://github.com/GwtarPlayer/google-java-format-with-options/issues</url>
   </issueManagement>
 
   <prerequisites>

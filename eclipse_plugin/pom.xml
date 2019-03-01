@@ -18,15 +18,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.google.googlejavaformat</groupId>
-    <artifactId>google-java-format-parent</artifactId>
-    <version>1.6</version>
+    <groupId>com.google.googlejavaformat.withoptions</groupId>
+    <artifactId>google-java-format-with-options-parent</artifactId>
+    <version>1.7.0</version>
   </parent>
 
-  <artifactId>google-java-format-eclipse-plugin</artifactId>
-  <version>1.6.0</version>
+  <artifactId>google-java-format-with-options-eclipse-plugin</artifactId>
+  <version>1.7.0</version>
   <packaging>eclipse-plugin</packaging>
-  <name>google-java-format Plugin for Eclipse 4.5+</name>
+  <name>google-java-format-with-options Plugin for Eclipse 4.5+</name>
 
   <description>
     A Java source code formatter that follows Google Java Style.
@@ -46,9 +46,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.google.googlejavaformat</groupId>
-      <artifactId>google-java-format</artifactId>
-      <version>1.6</version>
+      <groupId>com.google.googlejavaformat.withoptions</groupId>
+      <artifactId>google-java-format-with-options</artifactId>
+      <version>1.7.0</version>
     </dependency>
   </dependencies>
 
